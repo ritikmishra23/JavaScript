@@ -14,7 +14,7 @@ console.log(typeof scor) //string
 console.log(scor); //33
 
 /// "33" => 33
-// "33abc" => NaN
+// "33abc" => NaN..
 //  true => 1; false => 0
 
 //Number to Boolean

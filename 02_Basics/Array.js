@@ -20,6 +20,7 @@ myArr.push(7)
 // myArr.unshift(9)=> add element from starting/front in array
 // myArr.shift()=>delete element from starting/front in array
 
+
 // console.log(myArr.includes(9)); => Check whether value is present or not. return boolean value
 // console.log(myArr.indexOf(3));
 

@@ -38,4 +38,29 @@ function loginUserMessage(username = "sam") {
 // console.log(loginUserMessage("Ritik"))
 // console.log(loginUserMessage("Ritik"))
 
+//Shopping cart=>we do not know how many product will user in cart. So we use rest operator
+//Rest operator=> give all item in a single bundle. Notation=> ...
+function calculateCartPrice(...num1) {
+    return num1
+
+}
+console.log(calculateCartPrice(100, 200, 300))//[ 100, 200, 300 ]
+
+function calculateCartPrice(val1, val2, ...num1) {
+    return num1
+
+}
+console.log(calculateCartPrice(100, 200, 300, 400, 500))//[ 300, 400, 500 ]
+
+//Passing object
+const user =
+{
+    username: "Ritik Mishra",
+    price: 200
+}
+function handleObject(object) {
+    console.log(`username is ${object.username} and price is ${object.price}`)
+}
+handleObject(user)//username is Ritik Mishra and price is 200
+
 

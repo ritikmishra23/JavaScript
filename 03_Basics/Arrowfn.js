@@ -46,6 +46,9 @@ const add1 = (num1, num2) => (num1 + num2)
 console.log(add(1, 5));//6
 console.log(add1(1, 5));//6
 
-//in arrow function if we use curly braces then we have to use return statement
+//in arrow function if we use curly braces then we have to use return statement and for single statement we can directly return without using return statement
+//example
+const add1 = (num1, num2) => (num1 + num2)
+
 
 

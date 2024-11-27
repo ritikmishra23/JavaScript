@@ -41,7 +41,12 @@ const ebooks = books.filter((val) => val["genre"] == "History")
 
 //find book published after 2010
 const book = books.filter((val) => { return val.publish > 2010 })
-console.log(book);
+//console.log(book);
+
+//find book published before 2010
+const b = books.filter((val) => val["publish"] < 2010)
+console.log(b);
+
 
 
 
